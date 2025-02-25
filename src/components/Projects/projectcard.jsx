@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./projectCard.module.css";
+import styles from "./projectcard.module.css";
 
 // Import images manually
 import loan from "../../../assets/projects/loan.jpg";
