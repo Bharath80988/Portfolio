@@ -38,6 +38,23 @@
   text-decoration: none;
 }
 
+/* Resume Button */
+.resumeBtn {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.resumeBtn:hover {
+  background-color: var(--color-secondary);
+}
+
+/* Responsive Design */
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;

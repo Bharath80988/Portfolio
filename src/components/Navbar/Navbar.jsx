@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import { useState } from "react";
-import menuIcon from "E:\\portfolio\\portfolio\\assets\\nav\\closeIcon.png";
-import closeIcon from "E:\\portfolio\\portfolio\\assets\\nav\\menuIcon.png";
-
+import menuIcon from "../../../assets/nav/menuIcon.png";
+import closeIcon from "../../../assets/nav/closeIcon.png";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
@@ -15,15 +14,13 @@ export const Navbar = () => {
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
-          src={
-            menuOpen ? menuIcon:closeIcon
-          }
+          src={menuOpen ? closeIcon : menuIcon}
           alt="menu-button"
-          onClick={()=>setMenuOpen(!menuOpen)}
+          onClick={() => setMenuOpen(!menuOpen)}
         />
-        <ul 
+        <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-          onClick={()=>setMenuOpen(false)}
+          onClick={() => setMenuOpen(false)}
         >
           <li>
             <a href="#about">About</a>
@@ -36,6 +33,16 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="#contactus">Contact</a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/13vWvHiZXJOuvGBJjbQr5WzDpyxtDIxL5/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.resumeBtn}
+            >
+              View Resume
+            </a>
           </li>
         </ul>
       </div>

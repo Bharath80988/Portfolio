@@ -1,10 +1,10 @@
 import React from "react";
 
 import styles from "./about.module.css"
-import Cursor from "E:\\portfolio\\portfolio\\assets\\about\\cursorIcon.png"
-import Server from "E:\\portfolio\\portfolio\\assets\\about\\serverIcon.png"
-import AboutImg from "E:\\portfolio\\portfolio\\assets\\about\\aboutImage.png"
-import Machine from "E:\\portfolio\\portfolio\\assets\\about\\serverIcon.png"
+import Cursor from "../../../assets/about/cursorIcon.png"
+import Server from "../../../assets/about/serverIcon.png"
+import AboutImg from "../../../assets/about/aboutImage.png"
+import Machine from "../../../assets/about/uiIcon.png"
 
 export const About = () => {
     return (
