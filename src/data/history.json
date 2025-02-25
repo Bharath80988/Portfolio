@@ -1,0 +1,19 @@
+[
+    
+    {
+      "role": "SSLC and HSC",
+      "organisation": "Lakshmi Garden School, Vellore",
+      "startDate": "2020 - 2022",
+      "endDate": "Graduated",
+      "experiences": ["SSLC:94%","HSC(CSC and Maths):77.3%"],
+      "imageSrc": "lgms.jpg"
+    },
+    {
+      "role": "B.Tech-IT",
+      "organisation": "St. Joseph's Institute of Technology",
+      "startDate": "2022",
+      "endDate": "2026",
+      "experiences": ["Information Technology","Software Engineering"],
+      "imageSrc": "sjit.png"
+    }
+  ]

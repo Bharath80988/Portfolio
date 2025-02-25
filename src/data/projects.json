@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Loan-Prediction-System",
+      "imageSrc": "projects/loan.png",
+      "description": "A Loan Prediction System analyzes applicant data to predict loan approval based on financial and credit history.",
+      "skills": ["Python", "Sci-kit", "Jupyter"],
+      "demo": "https://github.com/Bharath80988/Loan-Prediction-System/blob/main/LoanPredict.ipynb",
+      "source": "https://github.com/Bharath80988/Loan-Prediction-System/tree/main"
+    },
+    {
+      "title": "Redefining-Recaptcha",
+      "imageSrc": "projects/recaptcha.png",
+      "description": "A reCAPTCHA system implemented using JavaScript to verify human users through interactive challenges and behavior analysis.",
+      "skills": ["HTML", "CSS", "JS"],
+      "demo": "https://bharath80988.github.io/Redesigning-Recaptcha/",
+      "source": "https://github.com/Bharath80988/Redesigning-Recaptcha"
+    },
+    {
+      "title": "Portfolio",
+      "imageSrc": "projects/portfolio.png",
+      "description": "A sleek, interactive React portfolio showcasing projects, skills, and experience with a modern touch.",
+      "skills": ["React", "CSS", "Node"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
+  
