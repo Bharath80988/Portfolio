@@ -5,12 +5,14 @@ import styles from "./projectcard.module.css";
 import loan from "../../../assets/projects/loan.jpg";
 import recaptcha from "../../../assets/projects/recaptcha.png";
 import portfolio from "../../../assets/projects/portfolio.jpg";
+import calorie from "../../../assets/projects/calorie.jpg";
 
 // Map image filenames to imported images
 const imageMap = {
   "projects/loan.png": loan,
   "projects/recaptcha.png": recaptcha,
   "projects/portfolio.png": portfolio,
+  "projects/calorie.jpg": calorie,
 };
 
 export const ProjectCard = ({
