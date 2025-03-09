@@ -36,7 +36,7 @@ export const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/13vWvHiZXJOuvGBJjbQr5WzDpyxtDIxL5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1R_QZGyjgbgiaXPr6PhLzZfLNsuuYj8Vi/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.resumeBtn}
